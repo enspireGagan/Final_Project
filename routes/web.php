@@ -20,3 +20,7 @@ use App\Http\Controllers\ProductController;
 Route::get('/',[ProductController::class,'index']);
 
 Route::get('/login',[ProductController::class,'login']);
+
+Route::get('/product-details',[ProductController::class,'product_details']);
+
+Route::get('/checkout',[ProductController::class,'checkout']);

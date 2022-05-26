@@ -12,4 +12,10 @@ class ProductController extends Controller
     public function login(){
         return view('login');
     }
+    public function product_details(){
+        return view('product-details');
+    }
+    public function checkout(){
+        return view('checkout');
+    }
 }
